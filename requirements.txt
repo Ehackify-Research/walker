@@ -1,5 +1,0 @@
-mcp==1.12.4
-pydantic==2.8.2
-pydantic-core==2.20.1
-rich>=13.0
-msgpack>=1.0  # Optional: enables Metasploit RPC integration
