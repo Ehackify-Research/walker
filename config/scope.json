@@ -1,0 +1,17 @@
+{
+  "engagement_name": "Dynamic Single Target Engagement",
+  "authorized_by": "User Confirmation",
+  "scope_mode": "single_target",
+  "authorized_targets": [
+    "192.168.1.12",
+    "http://192.168.1.12",
+    "http://192.168.1.12:80",
+    "192.168.1.8",
+    "http://192.168.1.8",
+    "http://192.168.1.8:80"
+    ,"192.168.1.9",
+    "http://192.168.1.9",
+    "http://192.168.1.9:80"
+  ],
+  "notes": "Walker Agent is authorized to scan only the single target explicitly provided by the user for the current engagement. The agent must not discover, scan, enumerate, or interact with any other IP address, hostname, subnet, or domain unless the user starts a new engagement with a different target. All automated tools (Nmap, Gobuster, FFUF, Nuclei, Dalfox, etc.) must remain strictly within the specified target."
+}

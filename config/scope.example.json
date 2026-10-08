@@ -1,0 +1,8 @@
+{
+  "engagement_name": "REPLACE_ME - e.g. Acme Corp External VAPT 2026-Q3",
+  "authorized_by": "REPLACE_ME - name/email of person who signed off scope",
+  "authorized_targets": [
+    "REPLACE_ME_with_ip_or_hostname_or_CIDR"
+  ],
+  "notes": "Only hosts/ranges listed here can be scanned. Update this file at the start of every engagement. Never commit real client scope files to a public portfolio repo."
+}
