@@ -1,9 +1,0 @@
-config/scope.json
-config/audit.log
-__pycache__/
-*.pyc
-venv/
-*.deb
-reports/
-.vscode/
-*.egg-info/
